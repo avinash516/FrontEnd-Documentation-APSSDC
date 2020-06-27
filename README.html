@@ -1,7 +1,26 @@
-<h1 id="frontend-documentation">FrontEnd-Documentation</h1>
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Frontend Documentation</title>
+	<style type="text/css">
+		*{
+			font-size: 18px;
+		}
+		body{
+			padding: 1%;
+			border: 1px solid #ddd;
+			width: 85%;
+			margin: 1% auto;
+		}
+	</style>
+</head>
+<body style="margin: 1% auto; box-shadow: 0px 8px 8px -8px #000">
+<h1 style="font-weight: 550">FrontEnd-Documentation</h1>
 <hr />
 <h2 id="webdevelopment-document-html5">WebDevelopment-Document-HTML5</h2>
-<ul id="topics"> TOPICS </ul>
+<br>
+
+<ul id="topics"> <h3>TOPICS </h3> 
 <li>Basic Content and Tags of HTML</li>
 <li id="basic-tags">Basic Tags</li>
 <li id="various-tags-exist-in-html">Various tags exist in HTML</li>
@@ -10,9 +29,10 @@
 <li id="semantic-elements">Semantic Elements</li>
 <li id="forms-in-html">Forms in HTML</li>
 <li id="form-controls">Form Controls</li>
-<h4 id="placeholdersidnamerequired-properties">Placeholders,id,name,required Properties</h4>
+<li id="placeholdersidnamerequired-properties">Placeholders,id,name,required Properties</li>
+</ul> <br>
 
-<h5 id="why-learn-html">Why Learn HTML?</h5>
+<h4>Why Learn HTML?</h4>
 <p>HTML is the foundation of all web pages. Without HTML, you wouldn’t be able to organize text or add images or videos to your web pages. HTML is the beginning of everything you need to know to create engaging web pages!.We can create a static website by HTML only.</p>
 <p>HTML is a <strong>markup language</strong> i.e., it is a way for the computers to communicate with each other, to control how text is processed and presented. A website will be opened on various systems with different browsers and the markup language ensures that the website looks the same in all the systems by the help of its various tags. The latest is the HTML5 and now it has a lot of features which are widely used to format web pages.</p>
 <p>HTML stands for <strong>Hypertext Markup Language</strong> Let's understand each word-</p>
@@ -71,7 +91,7 @@
 <li>Paired Tags</li>
 <li>Unpaired Tags</li>
 </ul>
-<h5 id="paired-tags">Paired Tags</h5>
+<h4 id="paired-tags">Paired Tags</h4>
 <p>Paired tags are those tags that comes in pair. They have an opening and a closing tag.</p>
 <p>Syntax:</p>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;tag&gt;</span> Content <span class="kw">&lt;/tag&gt;</span></code></pre>
@@ -81,23 +101,23 @@
  <span class="kw">&lt;form&gt;</span> <span class="kw">&lt;/form&gt;</span>
  <span class="kw">&lt;span&gt;</span> <span class="kw">&lt;/span&gt;</span>
  <span class="kw">&lt;p&gt;</span> <span class="kw">&lt;/p&gt;</span></code></pre>
-<h5 id="unpaired-tags">Unpaired Tags</h5>
+<h4 id="unpaired-tags">Unpaired Tags</h4>
 <p>Unpaired tags do not have a closing tag. These are opened same as paired tags but do not have to be closed.</p>
-<h5 id="some-unpaired-tags-are">Some Unpaired Tags are:</h5>
+<h4 id="some-unpaired-tags-are">Some Unpaired Tags are:</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="er">&lt;</span>!DOCTYPE&gt;
 <span class="kw">&lt;br&gt;</span>
 <span class="kw">&lt;hr&gt;</span>
 <span class="kw">&lt;meta&gt;</span>
 <span class="kw">&lt;input&gt;</span></code></pre>
 <h3 id="basic-html-tags">Basic HTML Tags</h3>
-<h5 id="block-level-elements-1">Block level elements:</h5>
+<h4 id="block-level-elements-1">Block level elements:</h4>
 <ul>
 <li>H1,h2,...,h6</li>
 <li>Div</li>
 <li>P</li>
 <li>Semantic elements</li>
 </ul>
-<h5 id="semantic-elements-1">Semantic Elements</h5>
+<h4 id="semantic-elements-1">Semantic Elements</h4>
 <ul>
 <li>Header</li>
 <li>Section</li>
@@ -107,7 +127,7 @@
 <li>Nav</li>
 <li>Main</li>
 </ul>
-<h5 id="inline-elements-1">Inline elements :</h5>
+<h4 id="inline-elements-1">Inline elements :</h4>
 <ul>
 <li>Span</li>
 <li>Img</li>
@@ -120,7 +140,7 @@
 </ul>
 <h4 id="html-heading-tag">HTML Heading Tag</h4>
 <p>Heading tag is used to give headings of particular sizes in a document. There are six different HTML heading tags, which gives different heading sizes and are defined by <code>html &lt;h1&gt; to &lt;h6&gt; tags. &lt;h1&gt; gives the largest heading and &lt;h6&gt; gives the smallest one. So &lt;h1&gt; can be used for most important headings and &lt;h6&gt;</code> can be used for least important one.</p>
-<h5 id="example-for-heading-tags">Example for Heading Tags</h5>
+<h4 id="example-for-heading-tags">Example for Heading Tags</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span><span class="kw">&gt;</span> 
 <span class="co">&lt;!-- lang indicates language </span>
@@ -134,7 +154,7 @@
     <span class="kw">&lt;h2&gt;</span>Heading size2<span class="kw">&lt;/h2&gt;</span>
     <span class="kw">&lt;h3&gt;</span>Heading size3<span class="kw">&lt;/h3&gt;</span>
     <span class="kw">&lt;h4&gt;</span>Heading size4<span class="kw">&lt;/h4&gt;</span>
-    <span class="kw">&lt;h5&gt;</span>Heading size5<span class="kw">&lt;/h5&gt;</span>
+    <span class="kw">&lt;h4&gt;</span>Heading size5<span class="kw">&lt;/h4&gt;</span>
     <span class="kw">&lt;h6&gt;</span>Heading size6<span class="kw">&lt;/h6&gt;</span>
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
@@ -142,9 +162,9 @@
 <div class="figure">
 <embed src="https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/htags.PNG?raw=true" /><p class="caption">Output</p>
 </div>
-<h5 id="html-paragraph-tag">HTML Paragraph Tag</h5>
+<h4 id="html-paragraph-tag">HTML Paragraph Tag</h4>
 <p>The <code>html &lt;p&gt; tag is used to define a paragraph in a document. HTML paragraph or HTML &lt;p&gt;</code> tag gives the text inside it, a paragraph like finishing. It is a notable point that a browser itself add an empty line before and after a paragraph.</p>
-<h5 id="example-for-paragraph-tag">Example for Paragraph Tag</h5>
+<h4 id="example-for-paragraph-tag">Example for Paragraph Tag</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html&gt;</span>
 <span class="kw">&lt;head&gt;</span>
@@ -154,13 +174,13 @@
     <span class="kw">&lt;p&gt;</span> This is used for writing paragraph.This tag tag gives the text inside it, a paragraph like finishing. It is a notable point that a browser itself add an empty line before and after a paragraph. <span class="kw">&lt;/p&gt;</span>
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="output-1">Output</h5>
+<h4 id="output-1">Output</h4>
 <div class="figure">
 <embed src="https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/para.PNG?raw=true" /><p class="caption">Output</p>
 </div>
-<h5 id="div-tag">div Tag</h5>
+<h4 id="div-tag">div Tag</h4>
 <p>The <code>html &lt;div&gt; tag defines a division or a section in an HTML document. The &lt;div&gt; tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript. The &lt;div&gt; tag is easily styled by using the class or id attribute. Any sort of content can be put inside the &lt;div&gt; tag!  Note: By default, browsers always place a line break before and after the &lt;div&gt;</code> element.</p>
-<h5 id="example">Example</h5>
+<h4 id="example">Example</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;html&gt;</span>
 <span class="kw">&lt;head&gt;</span>
     <span class="kw">&lt;h4&gt;</span>Div tag Example<span class="kw">&lt;/h4&gt;</span>
@@ -175,11 +195,11 @@
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
 <h4 id="semantic-elements-2">Semantic elements:</h4>
-<h5 id="header">header</h5>
+<h4 id="header">header</h4>
 <p>The header element represents a container for introductory content or a set of navigational links. A header element typically contains: * one or more heading elements <code>html &lt;h1&gt; - &lt;h6&gt;</code> * logo or icon * authorship information Note: You can have several <code>html &lt;header&gt; elements in one HTML document. However, &lt;header&gt; cannot be placed within a &lt;footer&gt;, &lt;address&gt; or another &lt;header&gt;</code> element.</p>
-<h5 id="section">section</h5>
+<h4 id="section">section</h4>
 <p>The <code>html &lt;section&gt; tag defines sections in a document, such as chapters, headers, footers, or any other sections of the document. The  &lt;section&gt; tag also supports the Global Attributes in HTML. The  &lt;section&gt;</code> tag also supports the Event Attributes in HTML.</p>
-<h5 id="example-1">Example</h5>
+<h4 id="example-1">Example</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html&gt;</span>
 <span class="kw">&lt;body&gt;</span>
@@ -198,10 +218,10 @@
 
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="html-article">HTML Article</h5>
+<h4 id="html-article">HTML Article</h4>
 <p>The HTML <code>html &lt;article&gt;</code> tag defines an independent self-contained content in a document. It usually works like a normal div, but is given special name and used as an area where specifically articles should be written.</p>
 <p>This tag is usually used on blog post, Forum post, comments etc.</p>
-<h5 id="example-2">Example</h5>
+<h4 id="example-2">Example</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span><span class="kw">&gt;</span>
 <span class="kw">&lt;head&gt;</span>
@@ -216,7 +236,7 @@ Linus Torvalds is the Father of Linux.<span class="kw">&lt;/p&gt;</span>
 <span class="kw">&lt;/article&gt;</span>
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="aside-tag">aside Tag:</h5>
+<h4 id="aside-tag">aside Tag:</h4>
 The <code>html &lt;aside&gt;</code> tag defines some content aside from the content it is placed in. The aside content should be indirectly related to the surrounding content. Tip: The ```html
 <aside> 
 <p>content is often placed as a sidebar in a document.</p>
@@ -225,7 +245,7 @@ Note: The
 element does not render as anything special in a browser. However, you can use CSS to style the
 <aside>
 <p>``` element (see example below).</p>
-<h5 id="example-3">Example:</h5>
+<h4 id="example-3">Example:</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html&gt;</span>
 <span class="kw">&lt;body&gt;</span>
@@ -241,9 +261,9 @@ element does not render as anything special in a browser. However, you can use C
 
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="html-footer-tag">HTML Footer Tag</h5>
+<h4 id="html-footer-tag">HTML Footer Tag</h4>
 <p>The HTML <code>html &lt;footer&gt;</code> tag was introduced in HTML 5. It is used to define a footer for a document or a section. It is specifically used for defining footer at the bottom of the webpage.</p>
-<h5 id="a-footer-element-contains">A Footer element contains:</h5>
+<h4 id="a-footer-element-contains">A Footer element contains:</h4>
 <ul>
 <li>Copyright information</li>
 <li>Contact information</li>
@@ -251,7 +271,7 @@ element does not render as anything special in a browser. However, you can use C
 <li>Back to top links</li>
 <li>Sitemap</li>
 </ul>
-<h5 id="example-4">Example</h5>
+<h4 id="example-4">Example</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span><span class="kw">&gt;</span>
 <span class="kw">&lt;head&gt;</span>
@@ -266,7 +286,7 @@ element does not render as anything special in a browser. However, you can use C
 <span class="kw">&lt;/html&gt;</span></code></pre>
 <h6 id="nav-tag">nav Tag:</h6>
 <p>The <code>html &lt;nav&gt;</code> tag defines a set of navigation links. Notice that NOT all links of a document should be inside a <nav> element. The <nav> element is intended only for major block of navigation links. Browsers, such as screen readers for disabled users, can use this element to determine whether to omit the initial rendering of this content.</p>
-<h5 id="example-5">Example</h5>
+<h4 id="example-5">Example</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html&gt;</span>
 <span class="kw">&lt;body&gt;</span>
@@ -284,11 +304,11 @@ element does not render as anything special in a browser. However, you can use C
 
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="main-tag">main Tag:</h5>
+<h4 id="main-tag">main Tag:</h4>
 <p>The <code>html &lt;main&gt;</code> tag specifies the main content of a document.</p>
 <p>The content inside the <code>html &lt;main&gt;</code> element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.</p>
 <p>Note: There must not be more than one <code>html &lt;main&gt; element in a document. The &lt;main&gt; element must NOT be a descendant of an &lt;article&gt;, &lt;aside&gt;, &lt;footer&gt;, &lt;header&gt;, or &lt;nav&gt;</code> element.</p>
-<h5 id="example-6">Example</h5>
+<h4 id="example-6">Example</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html&gt;</span>
 <span class="kw">&lt;body&gt;</span>
@@ -319,7 +339,7 @@ element does not render as anything special in a browser. However, you can use C
 
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="span-tag">span Tag:</h5>
+<h4 id="span-tag">span Tag:</h4>
 <p>The <code>html &lt;span&gt;</code> tag is an inline container used to mark up a part of a text, or a part of a document.</p>
 <p>The <code>html &lt;span&gt;</code> tag provides no visual change by itself, but when it is marked, you can style it with CSS, or manipulate it with JavaScript.</p>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
@@ -359,7 +379,7 @@ and
 <h4 id="html-anchor-tag">HTML Anchor Tag</h4>
 <p>HTML link is defined with the <code>html &lt;a&gt;</code> tag (Anchor tag). It is used to give link to any other file, webpage, image etc.</p>
 <p>This tag is called anchor tag and anything between the opening <code>html &lt;a&gt; tag and the closing &lt;/a&gt;</code> tag becomes part of the link and a user can click that part to reach to the linked document.</p>
-<h5 id="example-on-anchor-tag">Example on Anchor Tag</h5>
+<h4 id="example-on-anchor-tag">Example on Anchor Tag</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html&gt;</span>
 <span class="kw">&lt;head&gt;</span>
@@ -369,13 +389,13 @@ and
     <span class="kw">&lt;a</span><span class="ot"> href=</span><span class="st">&quot;https://www.google.com/&quot;</span><span class="kw">&gt;</span>Click here to goto Google page <span class="kw">&lt;/a&gt;</span>
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="output-2">Output</h5>
+<h4 id="output-2">Output</h4>
 <div class="figure">
 <embed src="https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/anch.PNG?raw=true" /><p class="caption">Output</p>
 </div>
 <h4 id="html-image-tag">HTML Image Tag</h4>
 <p>The Image Tag is used to add Images in HTML documents. The HTML <code>html &lt;img&gt;</code> tag is used to add image in a document.The 'src' attribute is used to give source(address) of the image. The height and width of the image can be controlled by the attributes - height=&quot;px&quot; and width=&quot;px&quot;. The 'alt' attribute is used as an alternative in a case if the image is not shown.</p>
-<h5 id="example-on-image-tag">Example On Image Tag</h5>
+<h4 id="example-on-image-tag">Example On Image Tag</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html&gt;</span>
 <span class="kw">&lt;head&gt;</span>
@@ -387,7 +407,7 @@ and
 <span class="kw">&lt;/html&gt;</span></code></pre>
 <h4 id="html-formatting-tags">HTML Formatting Tags</h4>
 <p>HTML Formatting is a process of changing appearance of text for better look and feel than the default text. The formatting tags are used to make text bold, italic, underlined, etc. There are almost 12 options available that how text appears in HTML.</p>
-<h5 id="some-tags-are">Some tags are:</h5>
+<h4 id="some-tags-are">Some tags are:</h4>
 <pre class="sourceCode html"><code class="sourceCode html">Bold Text -- <span class="kw">&lt;b&gt;</span>
 Italic Text -- <span class="kw">&lt;i&gt;</span>
 Underlined Text -- <span class="kw">&lt;u&gt;</span>
@@ -400,21 +420,21 @@ Deleted Text -- <span class="kw">&lt;del&gt;</span>
 Inserted Text -- <span class="kw">&lt;ins&gt;</span>
 Subscripted Text -- <span class="kw">&lt;sub&gt;</span>
 Superscripted Text -- <span class="kw">&lt;sup&gt;</span></code></pre>
-<h5 id="output-3">Output</h5>
+<h4 id="output-3">Output</h4>
 <div class="figure">
 <embed src="https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/format.PNG?raw=true" /><p class="caption">output</p>
 </div>
 <h4 id="html-table">HTML Table</h4>
 <p>An HTML table is defined with the <code>html &lt;table&gt;</code> tag. A table is used to display data in tabular form (rows * column). It is a paired tag. Just use these tags with their attributes to create tables. You can also use CSS stylesheet to beautify these structures. A table structure is represented in ‘rows<em>columns’ form, i.e. a ‘4</em>5’ table represents a table with 4 rows and 5 columns.</p>
 <p>Tables are also used in websites to present any data to the user. It looks really neat and also everyone prefers tabular form of data nowadays. The HTML tables allows to arrange data like text, images, etc. into rows and columns.</p>
-<h5 id="tags-of-table">Tags of Table:</h5>
+<h4 id="tags-of-table">Tags of Table:</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;table&gt;&lt;/table&gt;</span> <span class="co">&lt;!-- Table Main Tag --&gt;</span>
     <span class="kw">&lt;thead&gt;&lt;/thead&gt;</span> <span class="co">&lt;!--Table Header tags --&gt;</span>
     <span class="kw">&lt;tr&gt;&lt;/tr&gt;</span> <span class="co">&lt;!-- Table row Tag --&gt;</span>
     <span class="kw">&lt;th&gt;&lt;/th&gt;</span> <span class="co">&lt;!--Table Heafer Name Tag --&gt;</span>
     <span class="kw">&lt;tbody&gt;&lt;/tbody&gt;</span> <span class="co">&lt;!-- Table Tag --&gt;</span>
     <span class="kw">&lt;td&gt;&lt;/td&gt;</span> <span class="co">&lt;!-- Table Data Tag --&gt;</span></code></pre>
-<h5 id="example-on-table">Example On Table</h5>
+<h4 id="example-on-table">Example On Table</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html&gt;</span>
 <span class="kw">&lt;head&gt;</span>
@@ -441,12 +461,12 @@ Superscripted Text -- <span class="kw">&lt;sup&gt;</span></code></pre>
     <span class="kw">&lt;/table&gt;</span>
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="output-4">Output</h5>
+<h4 id="output-4">Output</h4>
 <div class="figure">
 <embed src="https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/tab1.PNG?raw=true" /><p class="caption">Output</p>
 </div>
 <p><strong>imp: You can Apply CSS for tables based on your Requirement</strong></p>
-<h5 id="example2">Example2</h5>
+<h4 id="example2">Example2</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html&gt;</span>
 <span class="kw">&lt;head&gt;</span>
@@ -473,11 +493,11 @@ Superscripted Text -- <span class="kw">&lt;sup&gt;</span></code></pre>
     <span class="kw">&lt;/table&gt;</span>
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="output-5">Output</h5>
+<h4 id="output-5">Output</h4>
 <div class="figure">
 <embed src="https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/tab2.PNG?raw=true" /><p class="caption">Output</p>
 </div>
-<h5 id="example-7">Example</h5>
+<h4 id="example-7">Example</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span><span class="kw">&gt;</span>
 <span class="kw">&lt;head&gt;</span>
@@ -503,19 +523,19 @@ Superscripted Text -- <span class="kw">&lt;sup&gt;</span></code></pre>
 <span class="kw">&lt;/table&gt;</span>
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="output-6">Output</h5>
+<h4 id="output-6">Output</h4>
 <div class="figure">
 <embed src="https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/tab3.PNG?raw=true" /><p class="caption">Output</p>
 </div>
-<h5 id="you-can-apply">You can Apply</h5>
+<h4 id="you-can-apply">You can Apply</h4>
 <ul>
 <li>The 'Cellpadding' and 'Cellspacing' Attribute</li>
 <li>These &quot;cellpadding&quot; and &quot;Cellspacing&quot; attributes are used to adjust the white spaces in your table cells.</li>
 <li>colspan,Rowspan attributes</li>
 </ul>
-<h5 id="html-font-size">HTML Font Size</h5>
+<h4 id="html-font-size">HTML Font Size</h4>
 <p>We can set font size using size attribute. * The range of accepted values is from 1 to 7. * The default size of a font is 3.</p>
-<h5 id="example-8">Example</h5>
+<h4 id="example-8">Example</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span><span class="kw">&gt;</span>
 <span class="kw">&lt;head&gt;</span>
@@ -531,9 +551,9 @@ Superscripted Text -- <span class="kw">&lt;sup&gt;</span></code></pre>
 <span class="kw">&lt;font</span><span class="ot"> size=</span><span class="st">&quot;7&quot;</span><span class="kw">&gt;</span>Hello HTML 5!<span class="kw">&lt;/font&gt;</span>
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="font-face">Font Face</h5>
+<h4 id="font-face">Font Face</h4>
 <p>You can set font face using face attribute but be aware that if the user viewing the page doesn't have the font installed, they will not be able to see it. Instead user will see the default font style.</p>
-<h5 id="example-9">Example</h5>
+<h4 id="example-9">Example</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span><span class="kw">&gt;</span>
 <span class="kw">&lt;head&gt;</span>
@@ -547,14 +567,14 @@ Superscripted Text -- <span class="kw">&lt;sup&gt;</span></code></pre>
 <span class="kw">&lt;font</span><span class="ot"> face=</span><span class="st">&quot;Bedrock&quot;</span><span class="ot"> size=</span><span class="st">&quot;5&quot;</span><span class="kw">&gt;</span>Bedrock<span class="kw">&lt;/font&gt;&lt;br&gt;</span>
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="output-7">Output</h5>
+<h4 id="output-7">Output</h4>
 <div class="figure">
 <embed src="https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/font.PNG?raw=true" /><p class="caption">Output</p>
 </div>
 <h4 id="ordered-list-in-html">Ordered List in HTML</h4>
 <p>This list is created by using <code>html &lt;ol&gt;</code> tag. Any series can be used to order the elements, like series of digits, alphabets, roman numerals, etc. All these series gets increased by one with every new element entered in the list.</p>
 <p>Ex.-For a numbered order list, the numbering starts at one and is incremented by one for each successive ordered list element tagged with <code>html &lt;li&gt;</code>.</p>
-<h5 id="example-10">Example</h5>
+<h4 id="example-10">Example</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html&gt;</span>
 <span class="kw">&lt;head&gt;</span>
@@ -569,13 +589,13 @@ Superscripted Text -- <span class="kw">&lt;sup&gt;</span></code></pre>
     <span class="kw">&lt;/ol&gt;</span>
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="output-8">Output</h5>
+<h4 id="output-8">Output</h4>
 <div class="figure">
 <embed src="https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/order.PNG?raw=true" /><p class="caption">Output</p>
 </div>
-<h5 id="ordered-list-type-attribute">Ordered list Type Attribute</h5>
+<h4 id="ordered-list-type-attribute">Ordered list Type Attribute</h4>
 <p>The type attribute is used to change the series type. * type=&quot;1&quot; The list items will be numbered with numbers (default). * type=&quot;A&quot; The list items will be numbered with uppercase letters. * type=&quot;a&quot; The list items will be numbered with lowercase letters. * type=&quot;I&quot; The list items will be numbered with uppercase roman numbers. * type=&quot;i&quot; The list items will be numbered with lowercase roman numbers.</p>
-<h5 id="example-11">Example:</h5>
+<h4 id="example-11">Example:</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html&gt;</span>
 <span class="kw">&lt;head&gt;</span>
@@ -590,13 +610,13 @@ Superscripted Text -- <span class="kw">&lt;sup&gt;</span></code></pre>
     <span class="kw">&lt;/ol&gt;</span>
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="output-9">Output</h5>
+<h4 id="output-9">Output</h4>
 <div class="figure">
 <embed src="https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/order2.PNG?raw=true" /><p class="caption">Output</p>
 </div>
-<h5 id="unordered-list">Unordered List:</h5>
+<h4 id="unordered-list">Unordered List:</h4>
 <p>An unordered list is a collection of related items that are listed with no special order or sequence. This list is created by using HTML <code>html &lt;ul&gt; tag. Each item in the list is marked with a bullet. Each item starts with &lt;li&gt;</code> tag.</p>
-<h5 id="example-12">Example:</h5>
+<h4 id="example-12">Example:</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html&gt;</span>
 <span class="kw">&lt;head&gt;</span>
@@ -611,13 +631,13 @@ Superscripted Text -- <span class="kw">&lt;sup&gt;</span></code></pre>
     <span class="kw">&lt;/ul&gt;</span>
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="output-10">Output</h5>
+<h4 id="output-10">Output</h4>
 <div class="figure">
 <embed src="https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/unorder.PNG?raw=true" /><p class="caption">Output</p>
 </div>
-<h5 id="unorder-list-type-attribute">Unorder List Type Attribute</h5>
+<h4 id="unorder-list-type-attribute">Unorder List Type Attribute</h4>
 <p><strong>The type attribute is used to change the series type.</strong> * type=&quot;disc&quot; Sets the list item marker to a bullet (default). * type=&quot;circle&quot; Sets the list item marker to a circle. * type=&quot;square&quot; Sets the list item marker to a square. * type=&quot;none&quot; The list items will not be marked.</p>
-<h5 id="example-13">Example</h5>
+<h4 id="example-13">Example</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html&gt;</span>
 <span class="kw">&lt;head&gt;</span>
@@ -632,16 +652,16 @@ Superscripted Text -- <span class="kw">&lt;sup&gt;</span></code></pre>
     <span class="kw">&lt;/ul&gt;</span>
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="output-11">Output</h5>
+<h4 id="output-11">Output</h4>
 <div class="figure">
 <embed src="https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/unorder2.PNG?raw=true" /><p class="caption">Output</p>
 </div>
 <h4 id="html-form-tag">HTML form Tag:</h4>
 <p>An HTML form is a section of a document which contains different fields like <strong>text fields, password fields, checkboxes, radio buttons, submit button, menus</strong> etc.</p>
 <p>HTML Forms can be used where we want to collect some data from the site visitor. For example, in case of user registration you would like to collect information such as <strong>name, email address, Phone number,</strong> etc.</p>
-<h5 id="html-forms-elements">HTML Forms Elements</h5>
+<h4 id="html-forms-elements">HTML Forms Elements</h4>
 <p><code>html * &lt;form&gt;    It defines an HTML form to enter inputs by the used side. * &lt;input&gt;   It defines an input control. * &lt;select&gt;  It defines a multi-line input control. * &lt;option&gt;  It defines an option in a drop-down list. * &lt;textarea&gt;    It defines a drop-down list. * &lt;button&gt;  It defines a label for an input element. * &lt;fieldset&gt;    It groups the related element in a form. * &lt;legend&gt;  It defines a caption for a &lt;fieldset&gt; element. * &lt;optgroup&gt;    It defines a group of related options in a drop-down list. * &lt;label&gt;   It defines a label for a field.</code></p>
-<h5 id="html-form-structure">HTML Form Structure</h5>
+<h4 id="html-form-structure">HTML Form Structure</h4>
 <p>The HTML <code>html &lt;form&gt; tag defines a form that is used to collect user input. All the form elements should be written inside &lt;form&gt; and &lt;/form&gt;</code> tags.</p>
 <p>Syntax:</p>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;form&gt;</span>
@@ -651,14 +671,14 @@ Superscripted Text -- <span class="kw">&lt;sup&gt;</span></code></pre>
     ........
 <span class="kw">&lt;/form&gt;</span></code></pre>
 <h4 id="html-form-elements">HTML Form Elements</h4>
-<h5 id="input-element">'Input' Element:</h5>
+<h4 id="input-element">'Input' Element:</h4>
 <p>The most important form element is the <code>html &lt;input&gt; element. The &lt;input&gt;</code> element can be displayed in several ways, depending on the type attribute. Syntax: <code>html &lt;input type=&quot;value&quot;&gt;</code></p>
-<h5 id="htmlhtml-input-type-attribute">HTML<code>html &lt;input&gt;</code> type Attribute:</h5>
+<h4 id="htmlhtml-input-type-attribute">HTML<code>html &lt;input&gt;</code> type Attribute:</h4>
 <p>Attribute_Values --&gt; Value_Description * <strong>button</strong> --&gt; Defines a clickable button (mostly used with a JavaScript to activate a script) * <strong>checkbox</strong> --&gt; Defines a checkbox * <strong>color</strong> --&gt; Defines a color picker * <strong>date</strong> --&gt; Defines a date control (year, month, day (no time)) * <strong>datetime-local</strong> --&gt; Defines a date and time control (year, month, day, time (no timezone) * <strong>email</strong> --&gt; Defines a field for an e-mail address * <strong>file</strong> --&gt; Defines a file-select field and a &quot;Browse&quot; button (for file uploads) * <strong>hidden</strong> --&gt; Defines a hidden input field * <strong>image</strong> --&gt; Defines an image as the submit button * <strong>month</strong> --&gt; Defines a month and year control (no timezone) * <strong>number</strong> --&gt; Defines a field for entering a number * <strong>password</strong> --&gt; Defines a password field * <strong>radio</strong> --&gt; Defines a radio button * <strong>range</strong> --&gt; Defines a range control (like a slider control) * <strong>reset</strong> --&gt; Defines a reset button * <strong>search</strong> --&gt; Defines a text field for entering a search string * <strong>submit</strong> --&gt; Defines a submit button * <strong>tel</strong> --&gt; Defines a field for entering a telephone number * <strong>text</strong> --&gt; Default. Defines a single-line text field * <strong>time</strong> --&gt; Defines a control for entering a time (no timezone) * <strong>url</strong> --&gt; Defines a field for entering a URL * <strong>week</strong> --&gt; Defines a week and year control (no timezone)</p>
-<h5 id="html-input-type">HTML Input Type</h5>
+<h4 id="html-input-type">HTML Input Type</h4>
 <p>Here is a list of some common HTML Form input types.</p>
 <p>Type Description * <strong>text:</strong> It defines a one-line text input field. * <strong>password:</strong> Defines a one-line password input field. * <strong>submit:</strong> It specifies a submit button to submit the form to server. * <strong>reset:</strong> The reset button reset all values in the form. * <strong>radio:</strong> A Radio button allows select one option. * <strong>checkbox:</strong> Checkboxes allow selecting multiple options form. * <strong>button:</strong> Defines a clickable button, which can perform a task on an event. * <strong>file:</strong> It defines to select the file from device storage. * <strong>image:</strong> It Defines a graphical submit button.</p>
-<h5 id="example1">Example1:</h5>
+<h4 id="example1">Example1:</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html&gt;</span>
 <span class="kw">&lt;head&gt;</span>
@@ -668,11 +688,11 @@ Superscripted Text -- <span class="kw">&lt;sup&gt;</span></code></pre>
     User Name: <span class="kw">&lt;input</span><span class="ot"> type=</span><span class="st">&quot;text&quot;</span><span class="ot"> name=</span><span class="st">&quot;username&quot;</span><span class="kw">&gt;</span>
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="output-12">Output:</h5>
+<h4 id="output-12">Output:</h4>
 <div class="figure">
 <embed src="https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/input1.PNG?raw=true" /><p class="caption">Output</p>
 </div>
-<h5 id="example2-1">Example2:</h5>
+<h4 id="example2-1">Example2:</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html&gt;</span>
 <span class="kw">&lt;head&gt;</span>
@@ -684,11 +704,11 @@ Superscripted Text -- <span class="kw">&lt;sup&gt;</span></code></pre>
     <span class="kw">&lt;input</span><span class="ot"> type=</span><span class="st">&quot;submit&quot;</span><span class="ot"> name=</span><span class="st">&quot;button&quot;</span><span class="ot"> value=</span><span class="st">&quot;cancel&quot;</span><span class="kw">&gt;</span>
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="output-13">Output:</h5>
+<h4 id="output-13">Output:</h4>
 <div class="figure">
 <embed src="https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/input2.PNG?raw=true" /><p class="caption">Output</p>
 </div>
-<h5 id="example3">Example3:</h5>
+<h4 id="example3">Example3:</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html&gt;</span>
 <span class="kw">&lt;head&gt;</span>
@@ -701,12 +721,12 @@ Superscripted Text -- <span class="kw">&lt;sup&gt;</span></code></pre>
     <span class="kw">&lt;input</span><span class="ot"> type=</span><span class="st">&quot;button&quot;</span><span class="ot"> name=</span><span class="st">&quot;button&quot;</span><span class="ot"> value=</span><span class="st">&quot;cancel&quot;</span><span class="kw">&gt;</span>
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="output-14">Output:</h5>
+<h4 id="output-14">Output:</h4>
 <div class="figure">
 <embed src="https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/input3.PNG?raw=true" /><p class="caption">Output</p>
 </div>
-<h5 id="checkbox-radiobutton">Checkbox &amp; Radiobutton:</h5>
-<h5 id="example-14">Example:</h5>
+<h4 id="checkbox-radiobutton">Checkbox &amp; Radiobutton:</h4>
+<h4 id="example-14">Example:</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span><span class="kw">&gt;</span>
 <span class="kw">&lt;head&gt;</span>
@@ -729,11 +749,11 @@ Superscripted Text -- <span class="kw">&lt;sup&gt;</span></code></pre>
 <span class="kw">&lt;/form&gt;</span> 
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="output-15">Output:</h5>
+<h4 id="output-15">Output:</h4>
 <div class="figure">
 <embed src="https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/radioandcheckbox.PNG?raw=true" /><p class="caption">Output</p>
 </div>
-<h5 id="example-15">Example:</h5>
+<h4 id="example-15">Example:</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html&gt;</span>
 <span class="kw">&lt;head&gt;</span>
@@ -750,11 +770,11 @@ Superscripted Text -- <span class="kw">&lt;sup&gt;</span></code></pre>
     <span class="kw">&lt;/form&gt;</span>
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="output-16">Output:</h5>
+<h4 id="output-16">Output:</h4>
 <div class="figure">
 <embed src="https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/input_attr1.PNG?raw=true" /><p class="caption">Output</p>
 </div>
-<h5 id="example-16">Example:</h5>
+<h4 id="example-16">Example:</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html&gt;</span>
 <span class="kw">&lt;head&gt;</span>
@@ -771,7 +791,7 @@ Superscripted Text -- <span class="kw">&lt;sup&gt;</span></code></pre>
     <span class="kw">&lt;/form&gt;</span>
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="output-17">Output:</h5>
+<h4 id="output-17">Output:</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html&gt;</span>
 <span class="kw">&lt;head&gt;</span>
@@ -788,13 +808,13 @@ Superscripted Text -- <span class="kw">&lt;sup&gt;</span></code></pre>
     <span class="kw">&lt;/form&gt;</span>
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="otput">Otput:</h5>
+<h4 id="otput">Otput:</h4>
 <div class="figure">
 <embed src="https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/input_attr2.PNG?raw=true" /><p class="caption">Output</p>
 </div>
-<h5 id="select-element">Select Element</h5>
+<h4 id="select-element">Select Element</h4>
 <p>The <code>html &lt;select&gt;</code> element defines a drop-down list. It mostly used when you have to show numbers of items.</p>
-<h5 id="example-17">Example</h5>
+<h4 id="example-17">Example</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span><span class="kw">&gt;</span>
 <span class="kw">&lt;head&gt;</span>
@@ -812,13 +832,13 @@ Superscripted Text -- <span class="kw">&lt;sup&gt;</span></code></pre>
 <span class="kw">&lt;/form&gt;</span>
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="output-18">Output</h5>
+<h4 id="output-18">Output</h4>
 <div class="figure">
 <embed src="https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/select.PNG?raw=true" /><p class="caption">Output</p>
 </div>
-<h5 id="textarea-element">Textarea Element</h5>
+<h4 id="textarea-element">Textarea Element</h4>
 <p>The <code>html &lt;textarea&gt;</code> element defines a multi-line input field.</p>
-<h5 id="example-18">Example</h5>
+<h4 id="example-18">Example</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span><span class="kw">&gt;</span>
 <span class="kw">&lt;head&gt;</span>
@@ -834,13 +854,13 @@ Superscripted Text -- <span class="kw">&lt;sup&gt;</span></code></pre>
 <span class="kw">&lt;/form&gt;</span>
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="output-19">Output:</h5>
+<h4 id="output-19">Output:</h4>
 <div class="figure">
 <embed src="https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/testarea1.PNG?raw=true" /><p class="caption">Output</p>
 </div>
-<h5 id="button-element">Button Element</h5>
+<h4 id="button-element">Button Element</h4>
 <p>The <code>html &lt;button&gt;</code> element defines a clickable button.</p>
-<h5 id="example-19">Example</h5>
+<h4 id="example-19">Example</h4>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span><span class="kw">&gt;</span>
 <span class="kw">&lt;head&gt;</span>
@@ -850,16 +870,16 @@ Superscripted Text -- <span class="kw">&lt;sup&gt;</span></code></pre>
     <span class="kw">&lt;button</span><span class="ot"> type=</span><span class="st">&quot;button&quot;</span><span class="ot"> onclick=</span><span class="st">&quot;alert(&#39;Hello World..!&#39;)&quot;</span><span class="kw">&gt;</span>Click Me!<span class="kw">&lt;/button&gt;</span>
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="output-20">Output</h5>
+<h4 id="output-20">Output</h4>
 <div class="figure">
 <embed src="https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/button.PNG?raw=true" /><p class="caption">Output</p>
 </div>
-<h5 id="method-attribute">Method' Attribute</h5>
+<h4 id="method-attribute">Method' Attribute</h4>
 <p>The method attribute specifies the HTTP method (GET or POST) to be used when submitting the form data. The GET is the default method when you submitting your form data.</p>
 <p>Syntax</p>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;form</span><span class="ot"> action=</span><span class="st">&quot;action-page.php&quot;</span><span class="ot"> method=</span><span class="st">&quot;get&quot;</span><span class="kw">&gt;</span>
 <span class="kw">&lt;form</span><span class="ot"> action=</span><span class="st">&quot;action-page.php&quot;</span><span class="ot"> method=</span><span class="st">&quot;post&quot;</span><span class="kw">&gt;</span></code></pre>
-<h5 id="name-attribute">Name Attribute</h5>
+<h4 id="name-attribute">Name Attribute</h4>
 <p>The name attribute specifies the name of <code>html &lt;input&gt;</code> element. It is a good practice to use this attribute, and also good for SEO purpose. ##### Example</p>
 <pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span><span class="kw">&gt;</span>
@@ -876,12 +896,12 @@ Superscripted Text -- <span class="kw">&lt;sup&gt;</span></code></pre>
 <span class="kw">&lt;/form&gt;</span> 
 <span class="kw">&lt;/body&gt;</span>
 <span class="kw">&lt;/html&gt;</span></code></pre>
-<h5 id="output-21">Output</h5>
+<h4 id="output-21">Output</h4>
 <div class="figure">
 <embed src="https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/button_se.PNG?raw=true" /><p class="caption">Output</p>
 </div>
-<h5 id="grouping-form-data-with-html-fieldset-the-fieldset-element-is-used-to-group-related-data-in-a-form-and-the-legend-element-defines-a-caption-for-the-fieldset-element.">Grouping Form Data with <code>html &lt;fieldset&gt; The &lt;fieldset&gt; element is used to group related data in a form and the &lt;legend&gt; element defines a caption for the &lt;fieldset&gt;</code> element.</h5>
-<h5 id="example-20">Example</h5>
+<h4 id="grouping-form-data-with-html-fieldset-the-fieldset-element-is-used-to-group-related-data-in-a-form-and-the-legend-element-defines-a-caption-for-the-fieldset-element.">Grouping Form Data with <code>html &lt;fieldset&gt; The &lt;fieldset&gt; element is used to group related data in a form and the &lt;legend&gt; element defines a caption for the &lt;fieldset&gt;</code> element.</h4>
+<h4 id="example-20">Example</h4>
 <pre class="sourceCode html"><code class="sourceCode html">
 <span class="dt">&lt;!DOCTYPE </span>html<span class="dt">&gt;</span>
 <span class="kw">&lt;html</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span><span class="kw">&gt;</span>
@@ -904,14 +924,14 @@ Superscripted Text -- <span class="kw">&lt;sup&gt;</span></code></pre>
 <div class="figure">
 <embed src="https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/field.PNG?raw=true" /><p class="caption">Output</p>
 </div>
-<h5 id="placeholder">placeholder</h5>
+<h4 id="placeholder">placeholder</h4>
 <p>It gives a hint about the value to be entered in the <code>html &lt;input&gt;</code>element. ##### required<br />It specifies that an input field must be filled out before submitting the form. ##### step<br />It specifies the legal number intervals for an <code>html &lt;input&gt;</code> element.</p>
-<h5 id="html-break">HTML Break</h5>
+<h4 id="html-break">HTML Break</h4>
 <p>The HTML <code>html &lt;br&gt; tag or element breaks line in a paragraph. The &lt;br&gt;</code> tag is an Unpaired tag which means that it has no end tag.</p>
 <h4 id="form-method-attributes">Form Method Attributes:</h4>
 <p>The method attribute specifies how to send form-data (the form-data is sent to the page specified in the action attribute).</p>
 <p>The form-data can be sent as URL variables (with method=&quot;get&quot;) or as HTTP post transaction (with method=&quot;post&quot;).</p>
-<h5 id="notes-on-get">Notes on GET:</h5>
+<h4 id="notes-on-get">Notes on GET:</h4>
 <ul>
 <li>Appends form-data into the URL in name/value pairs</li>
 <li>The length of a URL is limited (about 3000 characters)</li>
@@ -919,20 +939,20 @@ Superscripted Text -- <span class="kw">&lt;sup&gt;</span></code></pre>
 <li>Useful for form submissions where a user wants to bookmark the result</li>
 <li>GET is better for non-secure data, like query strings in Google</li>
 </ul>
-<h5 id="notes-on-post">Notes on POST:</h5>
+<h4 id="notes-on-post">Notes on POST:</h4>
 <ul>
 <li>Appends form-data inside the body of the HTTP request (data is not shown in URL)</li>
 <li>Has no size limitations</li>
 <li>Form submissions with POST cannot be bookmarked</li>
 </ul>
-<h5 id="attribute-values">Attribute Values</h5>
+<h4 id="attribute-values">Attribute Values</h4>
 <p>Value --&gt; Description get --&gt; Default. Appends the form-data to the URL in name/value pairs: URL?name=value&amp;name=value post --&gt; Sends the form-data as an HTTP post transaction</p>
-<h5 id="idrequired">id,required</h5>
+<h4 id="idrequired">id,required</h4>
 <h6 id="id">id</h6>
 <p>The HTML id attribute is used to specify a unique id for an HTML element (the value must be unique within the HTML document). The id attribute is used by CSS or JavaScript to perform certain tasks for the element with the specific id value.</p>
 <p>In CSS, to select an element with a specific id, write a hash (#) character, followed by the id of the element.</p>
 <p>Tip: The id attribute can be used on any HTML element. Note: The id value is case-sensitive. Note: The id value must contain at least one character, and must not contain whitespace (spaces, tabs, etc.).</p>
-<h5 id="required">required</h5>
+<h4 id="required">required</h4>
 <p>The required attribute is a boolean attribute. When present, it specifies that an input field must be filled out before submitting the form. Note: The required attribute works with the following input types: text, search, url, tel, email, password, date pickers, number, checkbox, radio, and file.</p>
 <p>Syntax: <code>html&lt;input required&gt;</code></p>
 <hr />
@@ -2064,7 +2084,7 @@ Animated Alerts Example
 <li>Badges scale to match the size of the immediate parent element by using relative font sizing and em units.</li>
 </ul>
 <h3 id="example-29">Example:</h3>
-<pre><code>&lt;h1&gt;Example heading &lt;span class=&quot;badge badge-secondary&quot;&gt;New&lt;/span&gt;&lt;/h1&gt;&lt;h2&gt;Example heading &lt;span class=&quot;badge badge-secondary&quot;&gt;New&lt;/span&gt;&lt;/h2&gt;&lt;h3&gt;Example heading &lt;span class=&quot;badge badge-secondary&quot;&gt;New&lt;/span&gt;&lt;/h3&gt;&lt;h4&gt;Example heading &lt;span class=&quot;badge badge-secondary&quot;&gt;New&lt;/span&gt;&lt;/h4&gt;&lt;h5&gt;Example heading &lt;span class=&quot;badge badge-secondary&quot;&gt;New&lt;/span&gt;&lt;/h5&gt;&lt;h6&gt;Example heading &lt;span class=&quot;badge badge-secondary&quot;&gt;New&lt;/span&gt;&lt;/h6&gt;</code></pre>
+<pre><code>&lt;h1&gt;Example heading &lt;span class=&quot;badge badge-secondary&quot;&gt;New&lt;/span&gt;&lt;/h1&gt;&lt;h2&gt;Example heading &lt;span class=&quot;badge badge-secondary&quot;&gt;New&lt;/span&gt;&lt;/h2&gt;&lt;h3&gt;Example heading &lt;span class=&quot;badge badge-secondary&quot;&gt;New&lt;/span&gt;&lt;/h3&gt;&lt;h4&gt;Example heading &lt;span class=&quot;badge badge-secondary&quot;&gt;New&lt;/span&gt;&lt;/h4&gt;&lt;h4&gt;Example heading &lt;span class=&quot;badge badge-secondary&quot;&gt;New&lt;/span&gt;&lt;/h4&gt;&lt;h6&gt;Example heading &lt;span class=&quot;badge badge-secondary&quot;&gt;New&lt;/span&gt;&lt;/h6&gt;</code></pre>
 <p><img src="/Badge/BasicBadges.PNG" alt="image"/></p>
 <h2 id="notifications">Notifications</h2>
 <h3 id="example-30">Example:</h3>
@@ -2415,7 +2435,7 @@ Add .table-hover to enable a hover state on table rows within a
 <pre><code>&lt;div class=&quot;card&quot; style=&quot;width: 18rem;&quot;&gt;
      &lt;img src=&quot;images/logo.png&quot; class=&quot;card-img-top&quot; alt=&quot;Profile_pic&quot;&gt;
      &lt;div class=&quot;card-body&quot;&gt;
-        &lt;h5 class=&quot;card-title&quot;&gt;Profile Card of Jack Sparrow&lt;/h5&gt;
+        &lt;h4 class=&quot;card-title&quot;&gt;Profile Card of Jack Sparrow&lt;/h4&gt;
         &lt;p class=&quot;card-text&quot;&gt;Jack Sparrow&lt;/p&gt;
         &lt;a href=&quot;https://github.com/KalyanPaladugu&quot; class=&quot;btn btn-primary&quot;&gt;Click to see profile&lt;/&gt;
      &lt;/div&gt;
@@ -2434,9 +2454,9 @@ Cards with response:
    
 <img src="images/logo.png" class="card-img-top" alt="Profile_pic">
 <div class="card-body">
-      <h5 class="card-title">
+      <h4 class="card-title">
 Profile Card of Jack Sparrow
-</h5>
+</h4>
       <p class="card-text">
 Jack Sparrow
 </p>
@@ -2447,7 +2467,7 @@ Jack Sparrow
 &lt;div class=&quot;card&quot; style=&quot;width: 18rem;&quot;&gt;</code></pre>
 <img src="images/logo.png" class="card-img-top" alt="Profile_pic">
 <div class="card-body">
-<pre><code>  &lt;h5 class=&quot;card-title&quot;&gt;Profile Card of Jack Sparrow&lt;/h5&gt;
+<pre><code>  &lt;h4 class=&quot;card-title&quot;&gt;Profile Card of Jack Sparrow&lt;/h4&gt;
   &lt;p class=&quot;card-text&quot;&gt;Jack Sparrow&lt;/p&gt;
  &lt;a href=&quot;https://github.com/KalyanPaladugu&quot; class=&quot;btn btn-primary&quot;&gt;Click to see profile&lt;/a&gt;
  &lt;/div&gt;
@@ -2455,7 +2475,7 @@ Jack Sparrow
 &lt;div class=&quot;card&quot; style=&quot;width: 18rem;&quot;&gt;</code></pre>
 <img src="images/logo.png" class="card-img-top" alt="Profile_pic">
 <div class="card-body">
-<pre><code>  &lt;h5 class=&quot;card-title&quot;&gt;Profile Card of Jack Sparrow&lt;/h5&gt;
+<pre><code>  &lt;h4 class=&quot;card-title&quot;&gt;Profile Card of Jack Sparrow&lt;/h4&gt;
   &lt;p class=&quot;card-text&quot;&gt;Jack Sparrow&lt;/p&gt;
  &lt;a href=&quot;https://github.com/KalyanPaladugu&quot; class=&quot;btn btn-primary&quot;&gt;Click to see profile&lt;/a&gt;
  &lt;/div&gt;
@@ -2953,3 +2973,8 @@ document.write(&quot;The URL of this page is: &quot; + window.location.href); //
     ]
 }</code></pre></li>
 </ul>
+
+
+</body>
+</html>
+
