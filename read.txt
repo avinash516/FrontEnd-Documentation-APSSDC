@@ -1,0 +1,75 @@
+If we see table structure it can be divided in to 3 tags
+
+1.thead - heading content can be include in this tag
+2.tbody - main content respective heading can be includ in this tag
+3.tfoot - content which can be shown in bottom of the table can include in this tag
+
+
+Sub tags of table tag
+-th  Defines a header cell whether it is a row|column|group of rows|group of columns
+- tr for display data in row
+- td  for display data in cell of a table
+
+<th scope="col|row|colgroup|rowgroup" colspan="2" rowspan="3">
+
+Attributes:scope, colspan and rowspan
+
+Scope:The scope attribute has no visual effect in ordinary web browsers,
+ but can be used by screen readers.
+
+Attribute values for scope:
+ col-Specifies that the cell is a header for a column
+ row-Specifies that the cell is a header for a row
+ colgroup-Specifies that the cell is a header for a group of columns
+ rowgroup-Specifies that the cell is a header for a group of rows
+
+https://www.w3.org/WAI/EO/Drafts/tutorials/tables/scope/
+
+colspan - cell spans multiple number of columns 
+rowspan - cell spans multiple number of rows 
+
+http://www.tsbvi.edu/web/tables/4-tables-adv-span.html
+
+
+Contextual Classes:
+
+Contextual classes can be used to color the table,table rows or table cells. 
+The classes that can be used are: 
+.table-primary,
+.table-success,
+.table-info,
+.table-warning,
+.table-danger, 
+.table-active,
+.table-secondary, 
+.table-light and .table-dark:
+
+
+Table head options:
+Similar to tables and dark tables,
+use the modifier classes .thead-light or .thead-dark to 
+make <thead>s appear light or dark gray.
+
+Striped rows
+Use .table-striped to add zebra-striping to any table row within the <tbody>.
+
+
+Bordered table
+Add .table-bordered for borders on all sides of the table and cells.
+
+
+Hoverable rows
+Add .table-hover to enable a hover state on table rows within a <tbody>.
+
+
+
+Responsive tables
+Responsive tables allow tables to be scrolled horizontally with ease. Make any table responsive across all viewports by wrapping a .table with .table-responsive.
+Or, pick a maximum breakpoint with which to have a responsive table up to by using .table-responsive{-sm|-md|-lg|-xl}.
+
+
+
+Breakpoint specific
+Use .table-responsive{-sm|-md|-lg|-xl} as needed to create responsive tables up to a particular breakpoint. From that breakpoint and up, the table will behave normally and not scroll horizontally.
+
+These tables may appear broken until their responsive styles apply at specific viewport widths.

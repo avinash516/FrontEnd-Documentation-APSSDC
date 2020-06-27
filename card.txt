@@ -1,0 +1,18 @@
+Bootstrap Cards
+
+Bootstrap card is a bordered box container, contains with flexible and extensible content.
+we can include styles also for interactive response based on our requirement.
+A Card can br created with .card class and mainly it contains 3 subclasses which are inherit from .card
+which are usefull define header,body and footer content.
+.card-header
+.card-body
+.card-footer
+
+
+Images,Title,Text and Links 	
+
+.card-img-top  class used to upload profilepic or images 
+.card-title to define title of card (can inlcude any header tags <h*>)
+.card-subtitle to define subtitle of card (can inlcude any header tags <h*>)
+.card-text To write text
+
