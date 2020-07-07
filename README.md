@@ -1961,7 +1961,7 @@ Narla
 </html> 
 ```
 ### Output:
-<img src="/images/jambofullwidth.PNG" alt="Full-width Jumbotron">
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/jambofullwidth.PNG" alt="Full-width Jumbotron">
 
 # Colors:
 * Convey meaning through color with a handful of color utility classes. Includes support for styling links with hover states, too.
