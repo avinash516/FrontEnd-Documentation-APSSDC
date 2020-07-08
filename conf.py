@@ -100,7 +100,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'FrontEnd - Documentation'
+htmlhelp_basename = 'FrontEnd - Documentationdocs'
 
 
 # -- Options for LaTeX output ------------------------------------------------
