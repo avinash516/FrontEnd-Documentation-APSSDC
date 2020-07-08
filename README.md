@@ -1402,7 +1402,7 @@ h1, h2, p,body {
 
 #### Output:
 ___
-<img src="images/unis.JPG" alt="synatx"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/unis.JPG" alt="synatx"/>
 
 ### Kinds of CSS
 
@@ -2779,7 +2779,7 @@ As we know bootstrap is a framework. It consists number of default classes to bu
 ```
 Output:
 
-![alt text](https://github.com/KalyanPaladugu/Bootstrap-tables-cards/blob/master/images/img1.PNG "output for table")
+![alt text](https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/img1.PNG "output for table")
 
 
 - If we see table structure it can be divided in to 3 sections :
@@ -2841,7 +2841,7 @@ Scope:The scope attribute has no visual effect in ordinary web browsers,
 
 Output:
 
-![alt text](https://github.com/KalyanPaladugu/Bootstrap-tables-cards/blob/master/images/img2.PNG "Output for <th> attributes")
+![alt text](https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/img2.PNG "Output for <th> attributes")
 
 
 Contextual Classes:
@@ -2859,7 +2859,7 @@ The classes that can be used are:
 
 Output:
 
-![alt text](https://github.com/KalyanPaladugu/Bootstrap-tables-cards/blob/master/images/table.PNG "Output for contextual classes")
+![alt text](https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images//table.PNG "Output for contextual classes")
 
 
 
@@ -2902,7 +2902,7 @@ Use .table-striped to add zebra-striping to any table row within the ```<tbody>`
 
 Output:
 
-![alt text](https://github.com/KalyanPaladugu/Bootstrap-tables-cards/blob/master/images/strip.PNG "Output for striped rows")
+![alt text](https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/strip.PNG "Output for striped rows")
 
 
 Bordered table:
@@ -2943,7 +2943,7 @@ Add .table-bordered for borders on all sides of the table and cells.
 ```
 Output:
 
-![alt text](https://github.com/KalyanPaladugu/Bootstrap-tables-cards/blob/master/images/img4.PNG "Output for bordered class")
+![alt text](https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/img4.PNG "Output for bordered class")
 
 
 Hoverable rows:
@@ -2985,7 +2985,7 @@ Add .table-hover to enable a hover state on table rows within a <tbody>.
 
 Output:
  
-![alt text](https://github.com/KalyanPaladugu/Bootstrap-tables-cards/blob/master/images/hover.PNG "Output for hover class")
+![alt text](https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/hover.PNG "Output for hover class")
 
 
 Responsive tables:
@@ -3031,7 +3031,7 @@ Code for responsive table:-
 
 Output:
 
-![alt text](https://github.com/KalyanPaladugu/Bootstrap-tables-cards/blob/master/images/res.PNG "responsive image")
+![alt text](https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/res.PNG "responsive image")
 
 
 Breakpoint specific:
@@ -3072,7 +3072,7 @@ Card view:
    
 Output:
 
-![alt text](https://github.com/KalyanPaladugu/Bootstrap-tables-cards/blob/master/images/card1.PNG "Card view")
+![alt text](https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/card1.PNG "Card view")
 
 
 Images,Title,Text and Links:
@@ -3096,7 +3096,7 @@ Images,Title,Text and Links:
     
 Output:
 
-![alt text](https://github.com/KalyanPaladugu/Bootstrap-tables-cards/blob/master/images/profile1.PNG "Card view")
+![alt text](https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/profile1.PNG "Card view")
 
 Cards with response:
 --------------------
@@ -3134,7 +3134,7 @@ Cards with response:
 
 Output:
 
-![alt text](https://github.com/KalyanPaladugu/Bootstrap-tables-cards/blob/master/images/cardviews1.PNG "Card views")
+![alt text](https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/cardviews1.PNG "Card views")
 
 ____
 
@@ -3244,7 +3244,7 @@ PI = 10; // error
 
 + All JavaScript variables must be identied with Unique names(Identifiers)
 
-![image.png](img1.png)
+![image.png](https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/img1.png)
 
 ### Generating Output in JavaScript
 
@@ -3627,7 +3627,7 @@ console.log(i);  //A,P,S,S,D,C, ,W,e,l,c,o,m,e,',s, ,y,o,u
 
 + **Example**:
 
-![image.png](tree.PNG)
+![image.png](https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/tree.PNG)
 
 + The above diagram demonstrates the parent and chaild relationship between the nodes
 + ``<head>`` abd ``<body>`` elements are teh child nodes of ``<html>``.It's a parent node
