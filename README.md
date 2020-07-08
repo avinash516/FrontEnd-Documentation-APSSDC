@@ -1211,7 +1211,7 @@ ____
 ### CSS Syntax
 A **CSS** rule set contains a selector and a declaration block.
 ___
-<img src="images/selectors.gif" alt="synatx"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/selectors.gif" alt="synatx"/>
 
 * **Selector:** Selector indicates the HTML element you want to style. 
 * **DeclarationBlock:** The declaration block can contain one or more declarations separated by a semicolon.
