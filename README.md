@@ -1258,7 +1258,7 @@ p{
 ```
 #### Output:
 ____
-<img src="images/elements.JPG" alt="synatx"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/elements.JPG" alt="synatx"/>
 
 #### 2. CSS Id Selector
 
@@ -1288,7 +1288,7 @@ The **id selector** selects the id attribute of an HTML element to select a spec
 ```
 ### Output:
 ___
-<img src="images/idss.JPG" alt="synatx"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/idss.JPG" alt="synatx"/>
 
 
 #### 3.CSS Class Selector
@@ -1318,7 +1318,7 @@ The class selector selects HTML elements with a specific class attribute. It is 
 ```
 #### Output:
 ___
-<img src="images/cla.JPG" alt="synatx"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/cla.JPG" alt="synatx"/>
 
 #### 4.CSS Universal Selector
 
@@ -1347,7 +1347,7 @@ The universal selector is used as a wildcard character. It selects all the eleme
 ```
 #### Output:
 ___
-<img src="images/u.JPG" alt="synatx"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/u.JPG" alt="synatx"/>
 
 
 #### 5. CSS Group Selector
@@ -1444,7 +1444,7 @@ There are three ways to insert CSS in HTML documents.
 ```
 #### Output:
 ___
-<img src="images/inlines.JPG" alt="inline"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/inlines.JPG" alt="inline"/>
 
 #### 2.Internal CSS (or) Embedded CSS
 
@@ -1488,7 +1488,7 @@ The internal style sheet is used to add a unique style for a single document. It
 #### Output:
 ___
 
-<img src="images/internal.JPG" alt="inline"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/internal.JPG" alt="inline"/>
 
 #### External CSS
 
@@ -1541,7 +1541,7 @@ body {
 ```
 #### Output:
 ___
-<img src="images/external.JPG" alt="synatx"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/external.JPG" alt="synatx"/>
 
 
 ### Various Kinds of Properties along with values
@@ -1853,7 +1853,7 @@ Narla
 </html>
 ```
 ## Output:
-<img src="/images/container.PNG" alt="container & container-fluid image">
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/container.PNG" alt="container & container-fluid image">
 
 ## Bootstrap Jumbotron:
   * A Bootstrap jumbotron specifies a big box for getting extra attention to some special content or information. It is displayed as a grey box with rounded corners. It can also enlarge the font sizes of the text inside it.
@@ -1890,7 +1890,7 @@ Narla
 </html>
 ```
 ### Output:
-<img src="/images/jamboinside.PNG" alt="Jumbotron Inside Container">
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/jamboinside.PNG" alt="Jumbotron Inside Container">
 
 
 ## Jumbotron Outside Container:
@@ -1925,7 +1925,7 @@ Narla
 </html>
 ```
 ### Output:
-<img src="/images/jambooutside.PNG" alt="Jumbotron Outside Container">
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/jambooutside.PNG" alt="Jumbotron Outside Container">
 
 ## Full-width Jumbotron:
 * To get a jumbotron without rounded borders, you have to add the .jumbotron-fluid class and a .container or .container-fluid inside it.
@@ -1981,7 +1981,7 @@ Narla
 <p class="text-white bg-dark">.text-white</p>
 ```
 ### Output:
-<img src="/images/color1.PNG" alt="Colors">
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/color1.PNG" alt="Colors">
 
 
 * Contextual text classes also work well on anchors with the provided hover and focus states. Note that the .text-white and .text-muted class has no link styling.
@@ -2000,7 +2000,7 @@ Narla
 <p><a href="#" class="text-white bg-dark">White link</a></p>
 ```
 ### Output:
-<img src="/images/linkcolor.PNG" alt="link Colors">
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/linkcolor.PNG" alt="link Colors">
 
 ## Background color:
 * Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes. Background utilities do not set color, so in some cases you’ll want to use .text-* utilities.
@@ -2018,7 +2018,7 @@ Narla
 <div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
 ```
 ### Output:
-<img src="/images/background.PNG" alt="background Colors">
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/background.PNG" alt="background Colors">
 
 ## Background gradient:
 * When $enable-gradients is set to true, you’ll be able to use .bg-gradient- utility classes. By default, $enable-gradients is disabled and the example below is intentionally broken. This is done for easier customization from the moment you start using Bootstrap
@@ -2036,7 +2036,7 @@ Narla
 ```
 
 ### Output:
-<img src="/images/gradientcolor.PNG" alt="gradientcolor Colors">
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/gradientcolor.PNG" alt="gradientcolor Colors">
 
 # Bootstrap Alerts:
  * Bootstrap Alerts are used to provide an easy way to create predefined alert messages. Alert adds a style to your messages to make it more appealing to the users.
@@ -2072,7 +2072,7 @@ Narla
 </div>
 ```
 ### Output:
-<img src="/images/alert.PNG" alt="alert text">
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/alert.PNG" alt="alert text">
 
 
 * Alerts are created with the .alert class, followed by one of the contextual classes.
@@ -2132,7 +2132,7 @@ Narla
 </html>
 ```
 ### Output:
-<img src="/images/contextual.PNG" alt="contextual Colors">
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/contextual.PNG" alt="contextual Colors">
 
 ## Link color:
 * Use the .alert-link utility class to quickly provide matching colored links within any alert.
@@ -2165,7 +2165,7 @@ Narla
 </div>
 ```
 ### Output:
-<img src="/images/link-color.PNG" alt="link Colors">
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/link-color.PNG" alt="link Colors">
 
 ## Additional content:
 * Alerts can also contain additional HTML elements like headings, paragraphs and dividers.
@@ -2180,7 +2180,7 @@ Narla
 </div>
 ```
 ### Output:
-<img src="/images/additional.PNG" alt="additional Colors">
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/additional.PNG" alt="additional Colors">
 
 ## Dismissing:
 * Using the alert JavaScript plugin, it’s possible to dismiss any alert inline. Here’s how:
@@ -2201,7 +2201,7 @@ Narla
 ```
 
 ### Output:
-<img src="/images/dismiss.PNG" alt="dismiss"> 
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/dismiss.PNG" alt="dismiss"> 
 
 ## Animated Alerts:
   * You can use .fade and .show classes to add a fading effect when closing the alert message.
@@ -2260,7 +2260,7 @@ Narla
 </html>
 ```
 ### Output:
-<img src="/images/animated.PNG" alt="animated Colors">
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/animated.PNG" alt="animated Colors">
 
 # documentation3
 
@@ -2305,7 +2305,7 @@ More then 1200px | col-xl-*
 * .container-fluid, which is width: 100% at all breakpoints
 
 ## Grid:
-<img src="/images/grid table.PNG" alt="Grid image"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/grid table.PNG" alt="Grid image"/>
 
 
 ## Example
@@ -2350,11 +2350,11 @@ code:
 ```
 * All columns having equal with
 
- <img src="/images/1.PNG" alt="image"/>
+ <img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/1.PNG" alt="image"/>
  
  * Changing columns width:
  
-  <img src="/images/2.PNG" alt="image"/>
+  <img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/2.PNG" alt="image"/>
 
  * The above example creates three equal-width columns on small, medium,      large, and extra large devices using our predefined grid classes. Those    columns are centered in the page with the parent .container.
  
@@ -2372,7 +2372,7 @@ code:
 </div>
 ```
 
- <img src="/images/equalwidth.PNG" alt="image"/>
+ <img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/equalwidth.PNG" alt="image"/>
 
 ## Responsive classes
 * Bootstrap’s grid includes five tiers of predefined classes for building complex responsive layouts. Customize the size of your columns on extra small, small, medium, large, or extra large devices however you see fit.
@@ -2394,7 +2394,7 @@ code:
 </div>
 ```
 
- <img src="/images/breakpoints.PNG" alt="image"/>
+ <img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/breakpoints.PNG" alt="image"/>
 
 ## Stacked to horizontal:
 * Using a single set of .col-sm-* classes, you can create a basic grid system that starts out stacked and becomes horizontal at the small breakpoint (sm).
@@ -2412,7 +2412,7 @@ code:
 </div>
 ```
 
- <img src="/images/stacked.PNG" alt="image"/>
+ <img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/stacked.PNG" alt="image"/>
 
 
 
@@ -2433,17 +2433,17 @@ code:
 ```
     
   In col-lg:
-  <img src="images/col-lg.PNG" alt="image"/>
+  <img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/col-lg.PNG" alt="image"/>
   
   * LargeEnd devices
 
   
   In col-md:
-   <img src="/images/col-md.PNG" alt="image"/>
+   <img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/col-md.PNG" alt="image"/>
    
    
    col-sm:
-    <img src="/images/col-sm.PNG" alt="image"/>
+    <img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images//col-sm.PNG" alt="image"/>
     
     
 ## Progress Bar:
@@ -2457,7 +2457,7 @@ code:
   <div class="progress-bar" style="width:70%"></div>
 </div>
 ```
-<img src="/images/progressbar/basicprogressbar.PNG" alt="image"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/progressbar/basicprogressbar.PNG" alt="image"/>
 
 ## Progress Bar Height:
 * The height of the progress bar is 16px by default. Use the CSS height property to change it. Note that you must set the same height for the progress container and the progress bar:
@@ -2468,7 +2468,7 @@ code:
   <div class="progress-bar" style="width:40%;height:20px"></div>
 </div>
 ```
-<img src="/images/progressbar/ProgressBarHeight.PNG" alt="image"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/progressbar/ProgressBarHeight.PNG" alt="image"/>
 
 ## Progress Bar Labels
 * Add text inside the progress bar to show the visible percentage:
@@ -2479,7 +2479,7 @@ code:
   <div class="progress-bar" style="width:70%">70%</div>
 </div>
 ```
-<img src="/images/progressbar/ProgressBarLabel.PNG" alt="image"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/progressbar/ProgressBarLabel.PNG" alt="image"/>
 
 
 ## Colored Progress Bars:
@@ -2533,7 +2533,7 @@ code:
 </div>
 ```
 
-<img src="/images/progressbar/colorscrollbar.PNG" alt="image"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/progressbar/colorscrollbar.PNG" alt="image"/>
 
 
 ## Striped Progress Bars:
@@ -2545,7 +2545,7 @@ code:
   <div class="progress-bar progress-bar-striped" style="width:40%"></div>
 </div>
 ```
-<img src="/images/progressbar/StrippedProgressBar.PNG" alt="image"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/progressbar/StrippedProgressBar.PNG" alt="image"/>
 
 ## Animated Progress Bar
 * Add the .progress-bar-animated class to animate the progress bar:
@@ -2555,7 +2555,7 @@ code:
 `<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%"></div>`
 
 
-<img src="/images/progressbar/AnimatedProgressBar.PNG" alt="image"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/progressbar/AnimatedProgressBar.PNG" alt="image"/>
 
 ## Multiple Progress Bars
 * Progress bars can also be stacked:
@@ -2575,7 +2575,7 @@ code:
 </div>
 ```
 
-<img src="/images/progressbar/MultipleProgressBar.PNG" alt="image"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/progressbar/MultipleProgressBar.PNG" alt="image"/>
 
 ## Badges:
 * Documentation and examples for badges, our small count and labeling component.
@@ -2585,7 +2585,7 @@ code:
 ```
 <h1>Example heading <span class="badge badge-secondary">New</span></h1><h2>Example heading <span class="badge badge-secondary">New</span></h2><h3>Example heading <span class="badge badge-secondary">New</span></h3><h4>Example heading <span class="badge badge-secondary">New</span></h4><h5>Example heading <span class="badge badge-secondary">New</span></h5><h6>Example heading <span class="badge badge-secondary">New</span></h6>
 ```
-<img src="/Badge/BasicBadges.PNG" alt="image"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/Badge/BasicBadges.PNG" alt="image"/>
 
 ## Notifications
 ### Example:
@@ -2594,13 +2594,13 @@ code:
   Notifications <span class="badge badge-light">4</span></button>
   ```
   
-  <img src="/Badge/Notification4.PNG" alt="image"/>
+  <img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/Badge/Notification4.PNG" alt="image"/>
   
  * Note that depending on how they are used, badges may be confusing for users of screen readers and similar assistive technologies. While the styling of badges provides a visual cue as to their purpose, these users will simply be presented with the content of the badge. Depending on the specific situation, these badges may seem like random additional words or numbers at the end of a sentence, link, or button.
  
  * Unless the context is clear (as with the “Notifications” example, where it is understood that the “4” is the number of notifications), consider including additional context with a visually hidden piece of additional text
 
-<img src="/Badge/Profile9.PNG" alt="image"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/Badge/Profile9.PNG" alt="image"/>
 
 ## Contextual variations:
 * Add any of the below mentioned modifier classes to change the appearance of a badge.
@@ -2609,7 +2609,7 @@ code:
 ```
 <span class="badge badge-primary">Primary</span><span class="badge badge-secondary">Secondary</span><span class="badge badge-success">Success</span><span class="badge badge-danger">Danger</span><span class="badge badge-warning">Warning</span><span class="badge badge-info">Info</span><span class="badge badge-light">Light</span><span class="badge badge-dark">Dark</span>
 ```
-<img src="/Badge/ContextualVariations.PNG" alt="image"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/Badge/ContextualVariations.PNG" alt="image"/>
 ## Pill badges:
 * Use the .badge-pill modifier class to make badges more rounded (with a larger border-radius and additional horizontal padding). Useful if you miss the badges from v3.
 
@@ -2619,7 +2619,7 @@ code:
 <span class="badge badge-pill badge-primary">Primary</span><span class="badge badge-pill badge-secondary">Secondary</span><span class="badge badge-pill badge-success">Success</span><span class="badge badge-pill badge-danger">Danger</span><span class="badge badge-pill badge-warning">Warning</span><span class="badge badge-pill badge-info">Info</span><span class="badge badge-pill badge-light">Light</span><span class="badge badge-pill badge-dark">Dark</span>
 ```
 
-<img src="/Badge/PillBadges.PNG" alt="image"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/Badge/PillBadges.PNG" alt="image"/>
 
 ## links:
 * Using the contextual .badge-* classes on an <a> element quickly provide actionable badges with hover and focus states.
@@ -2628,7 +2628,7 @@ code:
 ```
 <a href="#" class="badge badge-primary">Primary</a><a href="#" class="badge badge-secondary">Secondary</a><a href="#" class="badge badge-success">Success</a><a href="#" class="badge badge-danger">Danger</a><a href="#" class="badge badge-warning">Warning</a><a href="#" class="badge badge-info">Info</a><a href="#" class="badge badge-light">Light</a><a href="#" class="badge badge-dark">Dark</a>
 ```
-<img src="/Badge/LinkBadge.PNG" alt="image"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/Badge/LinkBadge.PNG" alt="image"/>
 
 ## Buttons
 * Use Bootstrap’s custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more.
@@ -2640,7 +2640,7 @@ code:
 <button type="button" class="btn btn-primary">Primary</button><button type="button" class="btn btn-secondary">Secondary</button><button type="button" class="btn btn-success">Success</button><button type="button" class="btn btn-danger">Danger</button><button type="button" class="btn btn-warning">Warning</button><button type="button" class="btn btn-info">Info</button><button type="button" class="btn btn-light">Light</button><button type="button" class="btn btn-dark">Dark</button>
 <button type="button" class="btn btn-link">Link</button>
 ```
-<img src="/Buttons/BasicButtonExample.PNG" alt="image"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/Buttons/BasicButtonExample.PNG" alt="image"/>
 
 ## Disable text wrapping:
 * If you don’t want the button text to wrap, you can add the .text-nowrap class to the button. In Sass, you can set $btn-white-space: nowrap to disable text wrapping for each button.
@@ -2654,7 +2654,7 @@ code:
 ```
 <a class="btn btn-primary" href="#" role="button">Link</a><button class="btn btn-primary" type="submit">Button</button><input class="btn btn-primary" type="button" value="Input"><input class="btn btn-primary" type="submit" value="Submit"><input class="btn btn-primary" type="reset" value="Reset">
 ```
- <img src="/Buttons/ButtonTags.PNG" alt="image"/>
+ <img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/Buttons/ButtonTags.PNG" alt="image"/>
  
  ## Outline buttons:
  * In need of a button, but not the hefty background colors they bring? Replace the default modifier classes with the .btn-outline-* ones to remove all background images and colors on any button.
@@ -2663,7 +2663,7 @@ code:
  ```
  <button type="button" class="btn btn-outline-primary">Primary</button><button type="button" class="btn btn-outline-secondary">Secondary</button><button type="button" class="btn btn-outline-success">Success</button><button type="button" class="btn btn-outline-danger">Danger</button><button type="button" class="btn btn-outline-warning">Warning</button><button type="button" class="btn btn-outline-info">Info</button><button type="button" class="btn btn-outline-light">Light</button><button type="button" class="btn btn-outline-dark">Dark</button>
 ```
-<img src="/Buttons/OutlineButtons.PNG" alt="image"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/Buttons/OutlineButtons.PNG" alt="image"/>
 
 ## Button group
 * Group a series of buttons together on a single line
@@ -2679,7 +2679,7 @@ div class="btn-group" role="group" aria-label="Basic example">
   <button type="button" class="btn btn-secondary">Right</button></div>
 ```
 
-<img src="/images/ButtonGroup/BasicExample.PNG" alt="image"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/ButtonGroup/BasicExample.PNG" alt="image"/>
 
 ### Sizing
 * nstead of applying button sizing classes to every button in a group, just add .btn-group-* to each .btn-group, including each one when nesting multiple groups.
@@ -2689,7 +2689,7 @@ Example:
 <div class="btn-group btn-group-lg" role="group" aria-label="...">...</div><div class="btn-group" role="group" aria-label="...">...</div><div class="btn-group btn-group-sm" role="group" aria-label="...">...</div
 ```
 
-<img src="/images/ButtonGroup/Sizing.PNG" alt="image"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/ButtonGroup/Sizing.PNG" alt="image"/>
 
 ### Nesting
 * Place a .btn-group within another .btn-group when you want dropdown menus mixed with a series of buttons
@@ -2710,7 +2710,7 @@ Example:
   </div></div>
 ```
 
-<img src="/images/ButtonGroup/Nesting.PNG" alt="image"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/ButtonGroup/Nesting.PNG" alt="image"/>
 
 ## Vertical variation
 * Make a set of buttons appear vertically stacked rather than horizontally. Split button dropdowns are not supported here.
@@ -2723,7 +2723,7 @@ Example:
   ...</div>
 ```
 
-<img src="/images/ButtonGroup/VerticalVariation.PNG" alt="image"/>
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/ButtonGroup/VerticalVariation.PNG" alt="image"/>
 
 # Bootstrap-tables-cards
 
