@@ -107,7 +107,7 @@ mysql\&gt;SHOWTABLES;
 
 - Data Types
 
-<img src="./images/image3.png" />
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/image3.png" />
 
 The following table shows the string data types in MySQL:
 
@@ -372,7 +372,7 @@ A _many-to-many relationship_ occurs when multiple [records](https://fmhelp.file
 
 The following example includes a Students table, which contains a record for each student, and a Classes table, which contains a record for each class. A join table, Enrollments, creates two one-to-many relationships—one between each of the two tables.
 
-<img src="./images/image6.png" />
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/image6.png" />
 
 The primary key Student ID uniquely identifies each student in the Students table. The primary key Class ID uniquely identifies each class in the Classes table. The Enrollments table contains the foreign keys Student ID and Class ID.
 
@@ -445,7 +445,7 @@ A relational database consists of multiple related tables linking together using
 
 For example, in the [sample database](http://www.mysqltutorial.org/mysql-sample-database.aspx), we have the orders and orderdetails tables that are linked using the orderNumber column:
 
-<img src="./images/image5.png" />
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/image5.png" />
 
 To get complete orders&#39; information, you need to query data from both orders and orderdetails tables.
 
@@ -485,7 +485,7 @@ INNERJOIN salaries ON employee.id=salaries.id
 
 The following Venn diagram illustrates the inner join:
 
-<img src="./images/image1.png" />
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/image1.png" />
 
 ### Left Join
 
@@ -512,7 +512,7 @@ employee.addressFROM employee
 
 This Venn diagram illustrates how to use the left join to select rows that only exist in the left table:
 
-<img src="./images/image4.png" />
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/image4.png" />
 
 ### Right Join
 
@@ -533,7 +533,7 @@ employee.addressFROM employee
 
 This Venn diagram illustrates how to use the right join to select data that exists only in the right table:
 
-<img src="./images/image2.png" />
+<img src="https://raw.githubusercontent.com/avinash516/FrontEnd-Documentation-APSSDC/master/images/image2.png" />
 
 ### Full join
 
