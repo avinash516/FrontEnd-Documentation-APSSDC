@@ -79,10 +79,11 @@ Creating a database does not select it for use; you must do that explicitly. To 
 
 Creating the database is the easy part, but at this point it is empty, as [**SHOW TABLES**](https://dev.mysql.com/doc/refman/8.0/en/show-tables.html) tells you:
 
-`**mysql >** SHOWTABLES;`
+```sql
+SHOWTABLES;
 
 Empty set (0.00 sec)
-
+```
 Syntax for creating table**
 
 `**mysql >** CREATETABLE <table_name>; (_name_ VARCHAR(20),_email_ VARCHAR(60),_species_ VARCHAR(20), _gender_ CHAR(1), _birth_ DATE);`
