@@ -90,7 +90,7 @@ Empty set (0.00 sec)
 **Syntax for creating table**
 
 ```sql
-  CREATETABLE <table_name>; (_name_ VARCHAR(20),_email_ VARCHAR(60),_species_ VARCHAR(20), _gender_ CHAR(1), _birth_ DATE);`
+  CREATETABLE <table_name>; (name VARCHAR(20),email VARCHAR(60),species VARCHAR(20), gender CHAR(1), birth DATE);
 ```
 **Getting list of Tables**
 
