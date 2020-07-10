@@ -69,11 +69,14 @@ _sudo /opt/lampp/lampp stop_
 - By using URL ([http://localhost/phpmyadmin](http://localhost/phpmyadmin) ) from your favorite browser to visit the sql environment.
 
 #### Database ( Collection of tables )
-  - `CREATE DATABASE <database name>;`
-
+```sql
+    CREATE DATABASE <database name>;
+```
 Creating a database does not select it for use; you must do that explicitly. To make menagerie the current database, use this statement:
 
-**mysql >** `USE <database name>;`
+```sql
+  USE <database name>;`
+```
 
 #### Tables
 
@@ -84,14 +87,16 @@ SHOWTABLES;
 
 Empty set (0.00 sec)
 ```
-Syntax for creating table**
+**Syntax for creating table**
 
-`**mysql >** CREATETABLE <table_name>; (_name_ VARCHAR(20),_email_ VARCHAR(60),_species_ VARCHAR(20), _gender_ CHAR(1), _birth_ DATE);`
+```sql
+  CREATETABLE <table_name>; (_name_ VARCHAR(20),_email_ VARCHAR(60),_species_ VARCHAR(20), _gender_ CHAR(1), _birth_ DATE);`
+```
+**Getting list of Tables**
 
-Getting list of Tables
-
-mysql\&gt;SHOWTABLES;
-
+```sql
+  SHOWTABLES;
+```
 +---------------------+
 
 | Tables in menagerie |
