@@ -1,4 +1,4 @@
-## Part - I
+# SQL Documentation
 
 ![](RackMultipart20200628-4-mprj2k_html_237499165a11f2b9.gif)
 
@@ -138,7 +138,6 @@ The following table illustrates the MySQL date and time data types:
 | [TIMESTAMP](https://www.mysqltutorial.org/mysql-timestamp.aspx) | A timestamp value in CCYY-MM-DD hh:mm:ss format |
 | YEAR | A year value in CCYY or YY format |
 
-## Part - II
 
 ![](RackMultipart20200628-4-mprj2k_html_237499165a11f2b9.gif)
 
