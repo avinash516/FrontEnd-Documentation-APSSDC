@@ -31,7 +31,7 @@ The **key difference** between DBMS and File Management System is that **a DBMS 
 
 It covers the disadvantages of both DBMS and FMS
 
-NoSql =\&gt; FMS + DBMS
+`NoSql = FMS + DBMS`
 
 **Advantages of NoSql**
 
@@ -68,24 +68,24 @@ _sudo /opt/lampp/lampp stop_
 - PHPMyAdmin includes sql environment. It provides us to run sql queries
 - By using URL ([http://localhost/phpmyadmin](http://localhost/phpmyadmin) ) from your favorite browser to visit the sql environment.
 
-- Database ( Collection of tables )
-  - CREATE DATABASE \&lt;database name\&gt;
+#### Database ( Collection of tables )
+  - `CREATE DATABASE <database name>;`
 
 Creating a database does not select it for use; you must do that explicitly. To make menagerie the current database, use this statement:
 
-mysql\&gt;USE \&lt;database name\&gt;
+**mysql >** `USE <database name>;`
 
-- Tables
+#### Tables
 
 Creating the database is the easy part, but at this point it is empty, as [**SHOW TABLES**](https://dev.mysql.com/doc/refman/8.0/en/show-tables.html) tells you:
 
-mysql\&gt;SHOWTABLES;
+`**mysql >** SHOWTABLES;`
 
 Empty set (0.00 sec)
 
-**Syntax for creating table**
+Syntax for creating table**
 
-mysql\&gt;CREATETABLE \&lt;table\_name\&gt; (nameVARCHAR(20),emailVARCHAR(60),species VARCHAR(20), gender CHAR(1), birth DATE);
+`**mysql >** CREATETABLE <table_name>; (_name_ VARCHAR(20),_email_ VARCHAR(60),_species_ VARCHAR(20), _gender_ CHAR(1), _birth_ DATE);`
 
 Getting list of Tables
 
