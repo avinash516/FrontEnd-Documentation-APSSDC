@@ -1,6 +1,5 @@
 # SQL Documentation
 
-![](RackMultipart20200628-4-mprj2k_html_237499165a11f2b9.gif)
 
 ### FMS vs DBMS vs noSql
 
@@ -214,15 +213,15 @@ The COUNT() function is an [aggregate function](https://www.mysqltutorial.org/my
 
 The COUNT() function has three forms: COUNT(\*), COUNT(expression) and COUNT(DISTINCT expression).
 
-### **COUNT(\*) function**
+- COUNT() function
 
 The COUNT(\*) function returns the number of rows in a result set returned by a [SELECT](https://www.mysqltutorial.org/mysql-select-statement-query-data.aspx) statement. The COUNT(\*) returns the number of rows including duplicate, non-NULL and NULL rows.
 
-### **COUNT(expression)**
+- COUNT(expression)
 
 The COUNT(expression) returns the number of rows that do not contain NULL values as the result of the expression.
 
-### **COUNT(DISTINCT expression)**
+-COUNT(DISTINCT expression)
 
 The COUNT(DISTINCT expression) returns the number of distinct rows that do not contain NULL values as the result of the expression.
 
@@ -254,9 +253,6 @@ MySQL supports the following aggregate functions:
 | VARP\_SAM() | Return the sample variance. |
 | VARIANCE() | Return the population standard variance. |
 
-## Part - III
-
-![](RackMultipart20200628-4-mprj2k_html_237499165a11f2b9.gif)
 
 Sql Commands
 
@@ -270,9 +266,7 @@ Sql Commands
     - Deleting the column : ALTER TABLE \&lt;table name\&gt; DROP COLUMN \&lt;column-name\&gt;
     - ALTER TABLE \&lt;table\_name\&gt; ADD \&lt;column-name\&gt; \&lt;data\_type with size\&gt;
 
-## Part - IV
 
-![](RackMultipart20200628-4-mprj2k_html_237499165a11f2b9.gif)
 
   - RENAME : RENAME TABLE \&lt;old table name\&gt; TO \&lt;new table name\&gt;
   - TRUNCATE
@@ -318,9 +312,7 @@ These are the rules for enforcing on specific field ( columns )
 - UNIQUE KEY
 - FORIEGN KEY
 
-## Part - V
 
-![](RackMultipart20200628-4-mprj2k_html_237499165a11f2b9.gif)
 
 - DCL (Data Control Language)
   - GRANT
@@ -351,7 +343,6 @@ Example :
 
 SELECT \* FROM employees WHERE name [LIKE](http://localhost/phpmyadmin/url.php?url=https://dev.mysql.com/doc/refman/5.5/en/string-comparison-functions.html#operator_like)&#39;%a%&#39; ( Retrieving data where name contains character &#39; **a**&#39; )
 
-## Part - VI
 
 ![](RackMultipart20200628-4-mprj2k_html_237499165a11f2b9.gif)
 
@@ -440,9 +431,7 @@ UNIQUE KEY
 - Same as primary key (Doesn&#39;t allow duplicate values)
 - We can specify multiple unique attributes for a single table.
 
-## Part - VII
 
-![](RackMultipart20200628-4-mprj2k_html_237499165a11f2b9.gif)
 
 Joins in SQL
 
@@ -644,9 +633,7 @@ Relationships:
 
 2.[SELECT](http://localhost/phpmyadmin/url.php?url=https://dev.mysql.com/doc/refman/5.5/en/select.html) E.name, M.subject,M.marks,S.salaryFROM employee E, marks M,salaries S WHERE E.id=M.id[and](http://localhost/phpmyadmin/url.php?url=https://dev.mysql.com/doc/refman/5.5/en/logical-operators.html#operator_and) E.id=S.id
 
-## Part - IX
 
-![](RackMultipart20200628-4-mprj2k_html_237499165a11f2b9.gif)
 
 LIMIT :
 
