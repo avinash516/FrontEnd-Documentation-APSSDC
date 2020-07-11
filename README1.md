@@ -356,7 +356,6 @@ MySQL does not contains any &quot;ready&quot; options to define the one-to-one r
 
 Here&#39;s an example to define a one-to-one relationship in MySQL.
 
-![](RackMultipart20200628-4-mprj2k_html_4bb9c908ec000532.jpg)
 
 ### One-to-many
 
